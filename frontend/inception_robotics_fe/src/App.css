@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.ir_navbar {
+  width: 80%;
+  margin: 15px auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(65, 0, 0, 0.3);
+}
+
+.signedin_text{
+  margin-right: 10px;
+}
+
+.logout_btn {
+  color: #575757;
+}
+
+.robot_details_page{
+  margin-right: 10px;
+}
+
+.homepage_container{
+  width: fit-content;
+  height: calc(100vh - 86px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.robot_add_btn{
+  margin-bottom: 10px;
+  border-radius: 0px !important;
+}
+
+.robot_edit_btn, .robot_save_edit_btn{
+  margin-right: 10px;
+}
+
+.robot_edit_btn, .robot_delete_btn, .robot_save_edit_btn, .robot_cancel_edit_btn, .robot_add_cell_btn{
+  border-radius: 0px !important;
+}
+
+.robots_home_page, .robot_detail_root, .make_a_drone_cont, .usersignin_form, .usersignup_form{
+  height: calc(100vh - 86px);
+  width: 80% !important;
+  padding: 0px !important;
+}
+
+.robot_detail_img_cont{
+  width: fit-content !important;
+}
+
+.robot_detail_comment, .robot_detail_comment_input{
+  padding: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(65, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.robot_detail_comment_input{
+  margin-bottom: 100px;
+}
+
+.robot_comment_save_btn, .usersignin_button, .usersignup_button{
+  margin-top: 10px;
+  border-radius: 0px !important;
+}
+
+.robot_detail_table thead tr{
+  /* border: 0px; */
+}
+
+.robot_detail_table thead tr th{
+  /* border: 0px; */
+  text-align: center;
+}
+
+.robot_detail_table thead{
+  /* box-shadow: 0px 0px 5px 0px rgba(65, 0, 0, 0.3);
+  border-radius: 10px;
+  margin-bottom: 10px; */
+}
+
+.robot_detail_table tbody tr td{
+  text-align: center;
+}
+
+.excalidraw_cont{
+  box-shadow: 0px 0px 5px 0px rgba(65, 0, 0, 0.3);
+  height: 500px;
+}
+
+.drone_save_btn, .drone_first_save_btn, .drone_add_btn, .createaccount_button, .robot_details_page, .make_drone_page{
+  margin-top: 10px;
+  border-radius: 0px !important;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
